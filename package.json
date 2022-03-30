@@ -1,0 +1,35 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon src/main.js",
+    "test": "http localhost:4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saintmountain82/node-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saintmountain82/node-rest/issues"
+  },
+  "homepage": "https://github.com/saintmountain82/node-rest#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "httpie": "^1.1.2"
+  }
+}
